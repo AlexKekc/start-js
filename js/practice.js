@@ -87,17 +87,19 @@
 в котором будут только те элементы массива numbers, 
 которые больше чем значение параметра value (число). */
 
-// Создать массив
-// Перебрать массив
+// Создать пустой новый массив
+// Перебрать массив Numbers
 // Сравнить елементы массива с параметром value
 // Вернуть новый массив с елементами больше value
 
-const numbers = [45, 54, 1, 90, 98];
-const value = 38;
+// const numbers = [45, 54, 1, 90, 98];
+// const value = 38;
+// const numbersNew = [];
 
-for (let i = 0; i < numbers.length; i += 1) {
-  if (numbers[i] > value) {
-    numbers.push(numbers[i]);
-  }
-}
-console.log(numbers);
+// for (let i = 0; i < numbers.length; i += 1) {
+//   if (numbers[i] > value) {
+//     numbersNew.push(numbers[i]);
+//   }
+// }
+
+// console.log(numbersNew);
