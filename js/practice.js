@@ -103,3 +103,68 @@
 // }
 
 // console.log(numbersNew);
+
+/* Напиши функцию getCommonElements(array1, array2) которая получает 
+два массива произвольной длины в параметры array1 и array2, 
+и возвращает новый массив, состоящий из тех элементов, которые 
+присутствуют в обоих исходных массивах. 
+
+// 1. Перевірити чи має перший масив спільні елементи з другим масивом.
+// 2. Запушити спільні елементи в новий масив
+// 3. Створити новий масив
+
+// function getCommonElements(array1, array2) {
+// Моє рішення
+//   const arrayNew = [];
+//   if (array1.length > array2.length) {
+//     for (let i = 0; i < array1.length; i += 1) {
+//       if (array1.includes(array2[i])) {
+//         arrayNew.push(array2[i]);
+//       }
+//     }
+//   } else {
+//     for (let i = 0; i < array2.length; i += 1) {
+//       if (array2.includes(array1[i])) {
+//         arrayNew.push(array1[i]);
+//       }
+//     }
+//   }
+//   return arrayNew;
+// Рішення, яке підказали
+//   const normArr = [];
+//   for (number of array1) {
+//     if (array2.includes(number)) {
+//       normArr.push(number);
+//     }
+//   }
+//   return normArr;
+// }
+
+// console.log(
+//   getCommonElements([1, 2, 5, 6, 8, 9, 12, 19], [9, 5, 2, 19, 8, 1, 12])
+// );
+*/
+
+/* Напиши функцию getEvenNumbers(start, end) которая возвращает массив всех чётных чисел от start до end. 
+Чётным считается число которое делится на 2 без остатка (10 % 2 === 0).
+
+1. Создать новый пустой масив
+2. Перебрать значения от min до мах
+3. Проверить условие деления без остатка
+4. Залить значения без остатка в пустой масив*/
+
+// function getEvenNumbers(start, end) {
+//   // Change code below this line
+//   const sumArray = [];
+
+//   for (let i = start; i <= end; i += 1) {
+//     if (i % 2 === 0) {
+//       sumArray.push(i);
+//     }
+//   }
+//   return sumArray;
+//   // Change code above this line
+// }
+
+// console.log(getEvenNumbers(0, 10));
+
