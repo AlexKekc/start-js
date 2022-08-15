@@ -1,0 +1,26 @@
+{
+  "name": "start-js",
+  "version": "1.0.0",
+  "description": "Repository for practice js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexKekc/start-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexKekc/start-js/issues"
+  },
+  "homepage": "https://github.com/AlexKekc/start-js#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "uuid": "^8.3.2"
+  }
+}
